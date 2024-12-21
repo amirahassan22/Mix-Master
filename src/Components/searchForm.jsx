@@ -6,8 +6,8 @@ import { Form } from "react-router-dom";
 export default function SearchForm({searchTerm}) {
  
   return (
-    <section className="py-14">
-      <Form className=" mx-auto flex justify-center items-center bg-white w-3/5 py-8 rounded-lg shadow-lg" >
+    <section className="py-14 px-6">
+      <Form className=" mx-auto flex justify-center px-5 items-center w-full bg-white md:w-3/5 py-8 rounded-lg shadow-lg" >
         <div>
           <input
             type="search"
@@ -22,7 +22,7 @@ export default function SearchForm({searchTerm}) {
         </div>
         <button
           type="submit"
-          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         
         >
           search

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function About() {
   return (
     <section>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
         <div className="text-start flex flex-col justify-center px-10 py-10">
           <h2 className="text-4xl capitalize mb-7 font-medium ">about us</h2>
           <p className="text-lg">
@@ -43,10 +43,10 @@ export default function About() {
             Explore Drinks
           </Link>
         </div>
-        <div className="">
+        <div className="flex justify-center items-center">
           <img
             src="./undraw_refreshing_djbj.svg"
-            className="hidden md:block py-10 px-10"
+            className="hidden lg:block py-10 px-10"
             alt="about us"
           />
         </div>
