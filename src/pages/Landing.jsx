@@ -1,4 +1,3 @@
-import React from "react";
 import SearchForm from "../Components/searchForm.jsx";
 import { useLoaderData } from "react-router-dom";
 import { customFetch } from "../custom.js";
