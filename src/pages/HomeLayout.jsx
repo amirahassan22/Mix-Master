@@ -1,7 +1,5 @@
 import React from "react";
-// import { Link } from 'react-router-dom'
 import Navbar from "../Components/Navbar";
-import SearchForm from "../Components/searchForm";
 import { Outlet, useNavigation } from "react-router-dom";
 import { TailSpin } from "react-loader-spinner";
 

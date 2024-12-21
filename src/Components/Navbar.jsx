@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
-// import Wrapper from '../assets/wrappers/navbarStyles'
 
 export default function Navbar() {
   const[isClicked,setIsClicked] = useState(false)

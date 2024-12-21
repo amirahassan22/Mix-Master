@@ -6,7 +6,7 @@ import { loader as cocktailLoader } from './pages/Cocktail.jsx'
 import { action as newsLetterAction } from './pages/NewsLetter.jsx'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-import AppProvider from './Components/Store.jsx'
+
 // import { action as searchAction } from './Components/searchForm.jsx'
 
 const client = new QueryClient({
@@ -52,10 +52,9 @@ const router = createBrowserRouter([
   return (
     <>
     <QueryClientProvider client={client}>
-      <AppProvider>
+    
       <ReactQueryDevtools initialIsOpen={false}/>
       <RouterProvider router={router} />
-      </AppProvider>
      
     </QueryClientProvider>
     

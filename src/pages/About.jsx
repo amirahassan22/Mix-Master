@@ -16,23 +16,23 @@ export default function About() {
             mocktail at a time, and let the laughter and giggles flow!
           </p>
           <div>
-            <div class="max-w-screen-xl  py-8 mx-auto text-center lg:px-5">
-              <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
-                <div class="flex flex-col items-start justify-center">
-                  <dt class="mb-2 text-3xl md:text-4xl font-extrabold">20k</dt>
-                  <dd class="font-light text-gray-500 dark:text-gray-400">
+            <div className="max-w-screen-xl  py-8 mx-auto text-center lg:px-5">
+              <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
+                <div className="flex flex-col items-start justify-center">
+                  <dt className="mb-2 text-3xl md:text-4xl font-extrabold">20k</dt>
+                  <dd className="font-light text-gray-500 dark:text-gray-400">
                     customers
                   </dd>
                 </div>
-                <div class="flex flex-col items-start justify-center">
-                  <dt class="mb-2 text-3xl md:text-4xl font-extrabold">300+</dt>
-                  <dd class="font-light text-gray-500 dark:text-gray-400">
+                <div className="flex flex-col items-start justify-center">
+                  <dt className="mb-2 text-3xl md:text-4xl font-extrabold">300+</dt>
+                  <dd className="font-light text-gray-500 dark:text-gray-400">
                     drinks
                   </dd>
                 </div>
-                <div class="flex flex-col items-start justify-center">
-                  <dt class="mb-2 text-3xl md:text-4xl font-extrabold">14+</dt>
-                  <dd class="font-light text-gray-500 dark:text-gray-400">
+                <div className="flex flex-col items-start justify-center">
+                  <dt className="mb-2 text-3xl md:text-4xl font-extrabold">14+</dt>
+                  <dd className="font-light text-gray-500 dark:text-gray-400">
                     countries
                   </dd>
                 </div>
